@@ -36,7 +36,8 @@ sum salarioslnormal, d
 * Repito 300 veces y me fijo el porcentaje de veces que rechazo H0
 
 *=================================Punto 2=======================================*
-
+/* Realice 300 veces una simulación simple, utilizando una muestra de 2000 individuos y un effect size de 0.2, 
+y determine qué porcentaje de veces durante su simulación ha logrado rechazar la hipótesis nula */
 
 mat R = J(300,1,.) 
 forvalues x=1(1)300 {
@@ -158,10 +159,8 @@ save graph Graph "C:\Documents\ME-UNLP\3° Trimestre\Tópicos Avanzados de Econo
 
 *==================================Punto 4=====================================*
 * Utilizamos los mismos tamaños de efecto y tamaños muestrales del punto anterior, esta vez teniendo en cuenta que solo el 60% del grupo de tratamiento observa un aumento efectivo en los salarios
-
-*  Creamos una variable C que identifique a los tratados que efectivamente asistieron a las capacitaciones
-
-*  Introducimos a la regresión una interacción entre las variables T y C para captar las diferencias entre los tratados que efectivamente asistieron a las capacitaciones y los que no
+* Creamos una variable C que identifique a los tratados que efectivamente asistieron a las capacitaciones
+* Introducimos a la regresión una interacción entre las variables T y C para captar las diferencias entre los tratados que efectivamente asistieron a las capacitaciones y los que no
 
 
 mat resultados = J(20,3,.)
