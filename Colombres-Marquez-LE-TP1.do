@@ -9,6 +9,7 @@ cd "C:\Documents\ME-UNLP\3° Trimestre\Tópicos Avanzados de Economía Laboral\P
 clear all 
 use "Individual_t115.dta"
 
+set seed 123
 set obs 100000
 
 *==================================Punto 1======================================*
