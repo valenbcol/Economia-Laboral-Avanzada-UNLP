@@ -7,6 +7,6 @@ El archivo Colombres-Marquez-LE-TP1.do estima el tamaño de muestra requerido pa
 
 
 ### Advanced topics in difference-in-differences
-El archivo Colombres-Marquez-LE-TP1.do contiene la resolución del trabajo práctico 2, el cual consiste en dos partes: "issues with heterogeneous treatment effects and timing" e "issues with testing for pre-trends". El objetivo de los problemas propuestos en la primera parte fue hacer una estimación de TWFE dinámica, seguido del mismo ejercicio implementando la metodología propuesta por de Chaisemartin and D’Haultfuille (2020), y luego Callaway and SantAnna (2021).
+El archivo Colombres-Marquez-LE-TP1.do contiene la resolución del trabajo práctico 2, el cual consiste en dos partes: "issues with heterogeneous treatment effects and timing" e "issues with testing for pre-trends". Usando la base newg.dta, el objetivo de los problemas propuestos en la primera parte fue estimar el efecto de la política en el outcome Y mediante un TWFE dinámico, y presentar los resultados en un gráfico, teniendo en cuenta que el programa presenta timing diferencial en la asignación. Luego, se repite el mismo ejercicio implementando la metodología propuesta por de Chaisemartin y D’Haultfuille (2020), seguido de la metodología de Callaway y SantAnna (2021).
 
 El repositorio también contiene las bases de datos utilizadas en cada caso.
